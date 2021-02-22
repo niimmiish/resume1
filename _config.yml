@@ -1,0 +1,214 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Nimish Sheth
+title: Data Scientist
+email: nimisheth@gmail.com
+website: #www.github.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: 
+#github_username:  niimmiish
+linkedin_username: shethn
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: nimmoceez
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be  ### Use if you want to provide additional web links e.g. other personal or professional websites ###
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/nimish_avatar.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Nimish. I dabble in data. I have 18 years of experience in analytics and business intelligence.
+  
+  
+  ••  Data in itself is boring. I like to get people excited about what it can reveal.<br>
+  ••  I can speak the language of business and technology and translate between the two. I make an extra effort to understand what I don’t know and explain what I do know.<br>
+  ••  I learn fast and then help others see what I see.<br>
+  ••  Brisk pace, change, unstructured situations, and even organized chaos stimulate and propel me.<br>
+  ••  I am calm but move quickly.
+  {: style="color:#7f8c8d"}
+  <br>
+
+  I am most skilled in: <mark>data analytics</mark>, <mark>backpacking</mark>, and <mark>running</mark>.
+
+content:
+#  - title: Projects # Title for the section   ### FIX ###
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project  ### FIX ###
+#        link: github.com/sproogen
+        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          No matter the business problem, a critical understanding of business, data, technology, human behavior, and their interaction is essential for implementing successful solutions. Throughout my career, I have pitched in as needed—data scientist, solutions consultant, product analyst, business analyst, implementation lead, sales engineer, and team leader.<br>
+#          Orig sample desc: I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. 
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Independent Consultant
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Data Science and Analytics
+        caption: November 2013 - Present
+        quote: >
+          Solving data problems -- to explain the complex, find clarity in the opaque, illuminate gleaned information, <br>and create beneficial impact.
+          
+        description: | # this will include new lines to allow paragraphs
+            I help clients design and develop strategy and solutions for achieving data-based target outcomes.<br>
+            - Developed customer risk rating application for a large community bank ($15B in assets) based on business and policy drivers using R (analysis, visualization, and ETL) and proprietary knowledge graph software.<br>
+            - Validated major European bank’s sanctions screening program, Fircosoft, to identify weaknesses and risks. Highlighted limitations and exposed false negatives with data evidence (SQL, R, Python, Excel) to improve screening effectiveness.<br>
+            - Conducted assessment of a large international bank's regression based model used for predicting customer financial crime risk required by regulatory oversight. Validated conceptual soundness, quality and legitimacy of data inputs (PostgreSQL, R, Excel), implementation, use, and ongoing monitoring. Reported findings, theoretical deficiencies, and mitigation approach to address limitations.<br>
+            - Led model validation for premier European banks' transaction monitoring programs for detecting money-laundering. Investigated input data model set-up (SQL, Oracle, SAS), and outcome quality (true positives versus false negatives). Identified gaps in governance, business rules, parameter definition, alert generation, and documentation for adherence to [OCC Supervisory Guidance on Model Risk Management SR 11-7](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm). Authored final reports detailing findings, remedial strategies and tuning enhancements and presented to executive team.<br>
+            - Provided a premier organization of financial advisors with a framework for monitoring and improving Informatica data ingestion processes feeding compliance models for surveillance of $350B+ in assets.<br>
+            - Cleansed, derived, and analyzed 3 years of leasing data (SQL, Excel) for a supplier of shipping containers for industrial and agricultural applications. Created visualizations such as histograms, scatter plots, bubble and pareto charts for insight into increasing yield, reducing costs, and maximizing potential revenue of $1.1M+.<br>
+            - Derived logistics insights for container shipments using unstructured RFID tag read data. Extracted journeys, estimated arrival times, and container flow times to aid container tracking and resource allocation (Oracle, SQL).
+            
+            
+      - layout: left
+        title: SRA International
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Analytics and Data Integration Specialist
+        caption: July 2005 - October 2013
+        quote: > # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Enabling cirtical data solutions for U.S. military logistics
+        description: | # this will include new lines to allow paragraphs
+            I managed complex data pipeline architecture in an Agile environment for acquisition, analysis, transformation, and integration of ocean and freight transportation data into a dimensional data warehouse for the U.S. Dept. of Defense Surface Deployment and Distribution Command (SDDC). This effort was part of a $30M contract. At any time the data infrastructure enabled 1,000+ global users and DoD logisticians to monitor cargo near real-time, track 300+ vessels carrying 60,000+ shipments and supported the deployment and sustainment of U.S. forces worldwide.<br>
+            - Architected sourcing, cleansing, validation, and integration of data (Informatica mappings & workflows) from 20+ sources (Oracle databases, EDI, flat files, Excel files) for SDDC’s in-transit visibility of cargo moving via road, rail, and ocean. Integrated data helped recover $20M+ in costs for services not delivered.<br> 
+            - Designed ingestion and standardization of shipment data provided by commercial transportation carriers moving cargo across the Northern Distribution Network. This gave SDDC a unified operations picture for delivering and withdrawing equipment and supplies to/from troops in Afghanistan and Iraq.<br>
+            - Analyzed transactional data for operational insight from cargo pick-up through disposition. Identified anomalies for correction, enhanced data usage and governance, provided what-if analysis, and continually monitored and improved source-to-target data pipelines to stay synchronized with source data changes.<br>
+            - Led 18-month re-architecture and migration of data integration processes without system downtime.<br>
+            - Recognized for Outstanding Contribution for data integration redesign of a faltering project for detecting waste and abuse in U.S. Dept. of Defense passenger air travel.
+
+
+      - layout: left
+        title: Mantas
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Data Miner | Senior Product Analyst 
+        caption: June 2000 - July 2005
+        quote: >
+          Fighting financial crime
+        description: | # this will include new lines to allow paragraphs
+            Led development and implementation of transaction monitoring solutions for detecting potential money-laundering, terrorist financing, fraud, and broker/trading violations at financial institutions.<br>
+            - Rolled out product implementations on time and on budget at top-tier US and international firms such as ABN AMRO, Charles Schwab, U.S. Trust, TD Ameritrade, LPL Financial, and others resulting in follow-on sales and meeting revenue targets, all imperative for a start-up.<br>
+            - Conducted workshops with C-level executives, business sponsors, and technology staff for scoping solution, data requirements, implementation strategy, product configuration, testing, and system acceptance.
+            - Led feature planning, design, and enhancements of major module releases for Mantas’ AML product line.<br>
+            - Trained international implementation staff on product subsystems, business and technical analysis, customer-facing, testing, and troubleshooting, resulting in global implementation successes.
+
+
+  - title: Areas of Expertise # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          Business Intelligence • Predictive Analytics • Requirements & Data Analysis • Data Warehousing • Data Architecture & Integration (ETL) • Relational databases • Software Development Life Cycle • Agile, CRSIP-DM, Waterfall Methodologies
+
+  - title: Programming and Hands-on # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          SQL (PL/SQL Developer, TOAD, DBeaver, and like) • R • Python • Excel • GIS (R, ESRI) • UNIX • Encountered variably (Oracle, PostgreSQL, MySQL, SAS, Tableau, Informatica, SSIS,…)
+
+  - title: Ongoing Learning
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **The Analytics Edge** (statistical computing with R including analytics methods such as linear regression, logistic regression, classification and regression trees, text analytics, clustering, visualization, and optimization), Massachusetts Institute of Technology edX, May 2015<br>
+      - **Introduction to Programming Using Python**, University of Texas, Arlington edX, March 2016<br>
+      - **Introduction to Python for Data Science**, Microsoft edX, February 2016<br>
+ 
+          
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Virginia Tech
+        caption: 1999<br>Falls Church, Virginia
+        sub_title: M.S. Industrial Engineering
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          - Concentration in *Operations Research* <br> 
+          - Dissertation: [“Measuring and Evaluating Efficiency and Effectiveness Using Goal Programming and Data Envelopment Analysis in a Fuzzy Environment"](https://vtechworks.lib.vt.edu/handle/10919/31831), completed under tutelage of one of the foremost academics in Data Envelopment Analysis<br>
+          - Fully funded Graduate Assistant<br>
+          
+      - layout: left
+        title: St. Xavier's College
+        caption: Mumbai, India
+        sub_title: B.Sc. Mathematics
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          - Minor in *Statistics*<br>
+          - Official photographer for *JanFest*, a nationally renowned Indian Classical music festival hosted by the Indian Music Group
+          
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **What playtime looks like for me**
+      - *Backpacking*: Sierra Nevada, California; Isle Royal, Michigan; Grand Teton, Wyoming 
+      - *Running*: Marathons, half marathons, and anything else; looking to do Ragnars and an ultra
+      - *Cycling*: Commuting and breaking free
+      - *State bagging*: Visited 43 states in the United States
+      - *GeoX point bagging*: Mt. Whitney, California; Mt. Mitchell, North Carolina; Badwater Basin, California; Belle Fourche, South Dakota; West Quoddy Head, Maine; Isle Royal, Michigan; Lake Itasca, Minnesota,...
+      - [*National Parks*](https://www.nps.gov/): Rambled in 32 national parks, mostly in a tent
+      <br><br>
+
+      **Backpacking through Kings Canyon National Park, California<br>**
+      ![Kings Canyon Natl Park](/images/DSC01976_DxO.jpg "Kings Canyon Natl Park")
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
