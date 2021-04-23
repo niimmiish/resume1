@@ -7,15 +7,15 @@ version: 2
 
 # Personal info
 name: Nimish Sheth
-title: Data Scientist
-email: nimisheth@gmail.com
+title: Analytics and Data Science
+email: nimisheth at gmail dot com
 website: #niimmiish.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: 
+#twitter_username: 
 #github_username:  niimmiish
 linkedin_username: shethn
 # stackoverflow_username: "00000001"
@@ -48,7 +48,7 @@ additional_links:
 about_title: About Me
 about_profile_image: images/nimish_avatar.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Nimish. I dabble in data. I have 18 years of experience in analytics and business intelligence.
+  Hi, my name is Nimish. I dabble in data. I have 18 years of experience in data analytics and business intelligence.
   
   
   ••  Data in itself is boring. I like to get people excited about what it can reveal.<br>
@@ -112,7 +112,7 @@ content:
         sub_title: Senior Analytics and Data Integration Specialist
         caption: July 2005 - October 2013
         quote: > # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-          Enabling cirtical data solutions for U.S. military logistics
+          Enabling critical data solutions for U.S. military logistics
         description: | # this will include new lines to allow paragraphs
             I managed complex data pipeline architecture in an Agile environment for acquisition, analysis, transformation, and integration of ocean and freight transportation data into a dimensional data warehouse for the U.S. Dept. of Defense Surface Deployment and Distribution Command (SDDC). This effort was part of a $30M contract. At any time the data infrastructure enabled 1,000+ global users and DoD logisticians to monitor cargo near real-time, track 300+ vessels carrying 60,000+ shipments and supported the deployment and sustainment of U.S. forces worldwide.<br>
             - Architected sourcing, cleansing, validation, and integration of data (Informatica mappings & workflows) from 20+ sources (Oracle databases, EDI, flat files, Excel files) for SDDC’s in-transit visibility of cargo moving via road, rail, and ocean. Integrated data helped recover $20M+ in costs for services not delivered.<br> 
