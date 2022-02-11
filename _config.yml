@@ -82,18 +82,27 @@ content:
 #          No matter the business problem, a critical understanding of business, data, technology, human behavior, and their interaction is essential for implementing successful solutions. Throughout my career, I have pitched in as needed—data scientist, solutions consultant, product analyst, business analyst, implementation lead, sales engineer, and team leader.<br>
 #          Orig sample desc: I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. 
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
+        title: Orum
+        link: https://www.orum.io
+        #link_text: Orum.io
+        sub_title: Financial Crimes Analytics
+        caption: October 2021 - Present
+        quote: >
+          Making faster payments more secure with smarter monitoring and management of fraud and money laundering risks
+        description: | # this will include new lines to allow paragraphs
+          - Designing fraud monitoring and transaction surveillance for ACH payments
+          - Developing strategy for data collection, storage, and use for detecting and mitigating return and fraud risk using rules and machine learning models
+
+      - layout: left
         title: Independent Consultant
-        # link: boringcompany.com
-        # link_text: boringcompany.com
         sub_title: Data Science and Analytics
         caption: November 2013 - Present
         quote: >
           Solving data problems -- to explain the complex, find clarity in the opaque, illuminate gleaned information, <br>and create beneficial impact.
-          
         description: | # this will include new lines to allow paragraphs
             I help clients design and develop strategy and solutions for achieving data-based target outcomes.<br>
             - Developed customer risk rating application for a large community bank ($15B in assets) based on business and policy drivers using R (analysis, visualization, and ETL) and proprietary knowledge graph software.<br>
@@ -104,11 +113,8 @@ content:
             - Cleansed, derived, and analyzed 3 years of leasing data (SQL, Excel) for a supplier of shipping containers for industrial and agricultural applications. Created visualizations such as histograms, scatter plots, bubble and pareto charts for insight into increasing yield, reducing costs, and maximizing potential revenue of $1.1M+.<br>
             - Derived logistics insights for container shipments using unstructured RFID tag read data. Extracted journeys, estimated arrival times, and container flow times to aid container tracking and resource allocation (Oracle, SQL).
             
-            
       - layout: left
         title: SRA International
-        # link: boringcompany.com
-        # link_text: boringcompany.com
         sub_title: Senior Analytics and Data Integration Specialist
         caption: July 2005 - October 2013
         quote: > # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -121,11 +127,8 @@ content:
             - Led 18-month re-architecture and migration of data integration processes without system downtime.<br>
             - Recognized for Outstanding Contribution for data integration redesign of a faltering project for detecting waste and abuse in U.S. Dept. of Defense passenger air travel.
 
-
       - layout: left
         title: Mantas
-        # link: boringcompany.com
-        # link_text: boringcompany.com
         sub_title: Senior Data Miner | Senior Product Analyst 
         caption: June 2000 - July 2005
         quote: >
@@ -192,9 +195,9 @@ content:
       - *Backpacking*: Sierra Nevada, California; Isle Royal, Michigan; Grand Teton, Wyoming 
       - *Running*: Marathons, half marathons, and anything else; looking to do Ragnars and an ultra
       - *Cycling*: Commuting and breaking free
-      - *State bagging*: Visited 43 states in the United States
+      - *State bagging*: Visited 48 states in the United States
       - *GeoX point bagging*: Mt. Whitney, California; Mt. Mitchell, North Carolina; Badwater Basin, California; Belle Fourche, South Dakota; West Quoddy Head, Maine; Isle Royal, Michigan; Lake Itasca, Minnesota,...
-      - [*National Parks*](https://www.nps.gov/): Rambled in 32 national parks, mostly in a tent
+      - [*National Parks*](https://www.nps.gov/): Rambled in 40 national parks, mostly in a tent
       <br><br>
 
       **Backpacking through Kings Canyon National Park, California<br>**
